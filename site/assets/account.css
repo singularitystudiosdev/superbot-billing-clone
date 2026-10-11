@@ -1942,3 +1942,8 @@ span.chip{min-height:0;line-height:var(--lh-sm);padding:0 var(--sp-2);font-famil
 .acct-page .dv-detail .alert{margin:var(--sp-3) 0 0}
 .acct-page .dv-detail .ov-facts code{font-family:var(--font-mono);font-size:var(--fs-xs)}
 .acct-page .dv-note{display:block;margin-top:var(--sp-1);font-size:var(--fs-xs);line-height:var(--lh-xs)}
+/* Mascot tier marks: one transparent PNG per tier replaces the stacked .sb-tile ladder */
+.tier-mascot{display:block;flex:none;object-fit:contain}
+.bill-card-mark{height:72px}
+.bill-card-mark .tier-mascot{width:72px;height:72px}
+.bill-hero-mark .tier-mascot{width:56px;height:56px}
